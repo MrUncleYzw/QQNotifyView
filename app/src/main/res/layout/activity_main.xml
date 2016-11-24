@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.notify.qq.com.qqnotifyview.MainActivity">
+<demo.notify.qq.com.qqnotifyview.QQNotifyView
+    android:id="@+id/qqnotify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@id/contentview_id"
+        android:gravity="center"
+        android:text="我是内容"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dr_white_bg"
+        android:gravity="center"
+        android:id="@id/notifyview_id"
+        android:text="你有新通知啦,赶紧看，看完我要收起来了"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+</demo.notify.qq.com.qqnotifyview.QQNotifyView>
+
+</LinearLayout>
